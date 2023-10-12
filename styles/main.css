@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color:#ffd5c0;
+}
+
+.panel{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square{
+    height: 150px;
+    border: 1px solid #ffa7b6;
+    width: 150px;
+    background-color: #ffd5c0;
+}
+
+.container{
+    background: url(../img/pink.png);
+
+}
+
+.enemy{
+    background-image: url(../img/natsuki.png);
+    background-size: cover;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lives img{
+    height: 40px;
+    margin-right: 5px;
+}

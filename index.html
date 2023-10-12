@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@200;300;400&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/x-icon" href="/img/live.png">
+
+    <title>Kawaii Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+          
+            <div class="menu-time">
+              <h2>Time Left</h2>
+              <h3 id="time">0</h3>
+
+
+            </div>
+          <!-- end of menu-time -->
+          
+            <div class="menu-score"> 
+                <h2>Your Score</h2>
+                <h3 id="score">0</h3>
+            </div>
+          <!-- end of menu-score -->
+          
+            <div class="menu-lives"> 
+                <img src="/img/live.png">
+                <h3>3x</h3>
+            </div>
+          <!-- end of menu-lives -->
+
+        </div>
+        <!-- end of menu -->
+
+        <div class="panel">
+            <div class="panel-row">
+              <div class="square" id="1"></div>
+              <div class="square" id="2"></div>
+              <div class="square" id="3"></div>
+            </div>
+
+            <div class="panel-row">
+              <div class="square" id="4"></div>
+              <div class="square" id="5"></div>
+              <div class="square" id="6"></div>
+            </div>
+
+            <div class="panel-row">
+              <div class="square" id="7"></div>
+              <div class="square" id="8"></div>
+              <div class="square" id="9"></div>
+            </div>
+
+            <!-- end of panel-rows -->
+
+        </div>
+        <!-- end of panel -->
+
+      </div>
+      <!-- end of container -->
+      <script defer src="./scripts/engine.js"></script>
+</body>
+</html>
